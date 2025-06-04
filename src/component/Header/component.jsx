@@ -1,7 +1,6 @@
 import './style.css'
 
 import Modal from '../Modal/component';
-import DropdownBtn from '../Dropdown/component';
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -43,7 +42,12 @@ function Header() {
                 <li>{t('header.partner')}</li>
                 
                 <div className="btn flex">
-                    <DropdownBtn/> 
+                  <select onChange={(e) => changeLang(e.target.value)}>
+                    <option value="uz">O'zbek</option>
+                    <option value="ru">Russian</option>
+                    <option value="en">English</option>
+                  </select>
+
                     <button onClick={() => SetOpenModal(true)} className='register'>{t('header.contactus')}</button>
                 </div>
             </ul>
