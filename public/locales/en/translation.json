@@ -1,0 +1,40 @@
+{
+    "header":{
+        "home": "Home",
+        "destinations": "Destinations",
+        "about": "About",
+        "partner": "Partner",
+        "contactus": "Contact Us"
+    },
+
+    "hero": {
+        "title": "Explore and Travel",
+        "subtitle": "Holiday finder",
+        "location": "Location",
+        "activity": "Activity",
+        "grade": "Grade",
+        "date": "Date",
+        "explore": "Explore",
+        "reach": "Reach",
+        "arrive": "Arrive"
+    },
+    "cta": {
+        "title": "A new way to explore the world ",
+        "paragraph": "For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way",
+        "button": "Learn more"
+    },
+    "features": {
+        "title": "Featured destinations",
+        "more": "More",
+        "less": "Less"
+    },
+    "guide": {
+        "title": "Guides by Thousand Sunny",
+        "paragraph": "Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.",
+        "button": "Learn more"
+    },
+    "testimonials": {
+        "title": "Testimonials"
+        
+    }
+}

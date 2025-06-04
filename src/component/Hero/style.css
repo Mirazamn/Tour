@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+.hero > .flex {
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+
+.hero {
+    padding: 72px 0;
+}
+
+
+.hero .content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    font-weight: 700;
+    padding: 0 0 74px 0;
+}
+
+
+.hero .content h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 0 21px 0;
+}
+
+
+.hero .content hr {
+    height: 2px;
+    width: 32px;
+    border: none;
+    background: #202336;
+    margin: 0 0 21px 0;
+}
+
+
+.hero .content .input {
+    width: 470px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.hero .content .input input {
+    padding: 20px 30px;
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    width: 220px;
+
+    font-size: 15px;
+    font-weight: 400;
+    color: #4A4C53;
+    outline: none;
+}
+
+
+.hero .content button {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 20px 60px;
+    border: none;
+    margin: 51px 0 0 0;
+    cursor: pointer;
+
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.hero img {
+    width: 657px;
+}
+
+
+.hero .content .input .date {
+    flex-direction: column;
+}
+
+
+.hero .content .input .date label {
+    font-family: 'Inter', sans-serif;
+    padding: 0 0 10px 5px;
+}
+
+
+@media (max-width: 500px) {
+    section.hero {
+        width: 100vw;
+    }
+
+
+    .hero {
+        overflow-x: hidden;
+    }
+
+
+    .hero > .flex {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .hero .content h2 {
+        padding: 0 0 25px 0;
+        font-size: 50px;
+        width: 400px;
+    }
+
+
+    .hero .content h5 {
+        font-size: 19px;
+        padding: 0 0 20px;
+    }
+
+
+    .hero .content .input {
+        gap: 10px;
+    }
+
+
+    .hero .content .input input {
+        width: 45vw;
+        padding: 20px 20px;
+    }
+
+
+    .hero img {
+        width: 90vw;
+    }
+}

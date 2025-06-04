@@ -1,0 +1,35 @@
+{
+    "header": {
+        "home": "Asosiy",
+        "destinations": "Yo'nalishlar",
+        "about": "Biz haqimizda",
+        "partner": "Hamkorlar",
+        "contactus": "Bog'lanish"
+    },
+    "hero": {
+        "title": "Kashf et va sayohat qil",
+        "subtitle": "Ta'til qidirish",
+        "location": "Manzil",
+        "activity": "Mashg'ulot",
+        "grade": "Daraja",
+        "date": "Sana",
+        "explore": "Boshlash",
+        "reach": "Borish",
+        "arrive": "Kelish"
+    },
+    "cta": {
+        "title": "Dunyoni kashf etishning yangi usuli",
+        "paragraph": "O'n yillar davomida sayohatchilar mukammal safarlarini rejalashtirish uchun Lonely Planet kitoblariga murojaat qilishgan. Endi esa ular Lonely Planet Experiences tajribasiga ham ishonishlari mumkin.",
+        "button": "Batafsil"
+    },
+    "features": {
+        "title": "Mashhur yo‘nalishlar",
+        "more": "Batafsil",
+        "less": "Kamroq"
+    },
+    "guide": {
+        "title": "Thousand Sunny gidlari",
+        "paragraph": "Maydonimizdagi mutaxassislarimizning maslahatlari va tavsiyalariga to'la bo'lgan shahar qo'llanmalari ilovasi (iOS va Android) sayohatdan oldin va sayohat vaqtida eng zo'r manbadir.",
+        "button": "Ko'proq ma'lumot"
+    }
+}

@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Syne:wght@400..800&display=swap');
+
+.call-to-action {
+    padding: 200px 0 262px;
+}
+
+
+.call-to-action > .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 102px;
+}
+
+
+.call-to-action .content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.call-to-action .content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    width: 450px;
+    font-family: 'Playfair Display', serif;
+}
+
+
+.call-to-action .content p {
+    font-size: 17px;
+    font-weight: 300;
+    font-family: "Mulish", sans-serif;
+    color: #7D7987;
+    width: 450px;
+}
+
+
+.call-to-action .content button {
+    padding: 15px 35px;
+    background: #FB8F1D;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 500px) {
+    .call-to-action {
+        padding: 50px 0;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+
+    .call-to-action img {
+        width: 370px;
+    }
+
+
+    .call-to-action .content {
+        width: 350px;
+        gap: 20px;
+    }
+
+
+    .call-to-action .content h2 {
+        font-size: 26px;
+        width: 300px;
+    }
+}

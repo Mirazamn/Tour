@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Syne:wght@400..800&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.testimonials {
+    padding: 0 0 196px 0;
+}
+
+
+.testimonials > .flex {
+    justify-content: space-evenly;
+}
+
+
+.testimonials .content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+.testimonials .content .raiting {
+    gap: 15px;
+    padding: 145px 0 30px;
+}
+
+
+.testimonials .content .raiting .icon {
+    font-size: 25px;
+    color: #FFBB0C;
+}
+
+
+.testimonials .content p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #000000;
+    width: 450px;
+    font-family: "Mulish", sans-serif;
+}
+
+
+.testimonials .content h4 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 0 10px;
+}
+
+
+.testimonials .content h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000D9;
+}
+
+
+@media (max-width: 500px) {
+    body section.testimonials {
+        padding: 0 0 100px 0;
+        width: 100vw;
+    }
+
+
+    .testimonials > .flex {
+        flex-direction: column;
+    }
+
+
+    .testimonials .content {
+        padding: 0 0 50px 0;
+    }
+
+
+    .testimonials .content h2 {
+        padding: 50px 0 0 0;
+    }
+
+
+    .testimonials .content .raiting {
+        padding: 70px 0 20px 0;
+    }
+
+
+    .testimonials .content p {
+        font-size: 19px;
+        width: 90vw;
+    }
+
+
+    .testimonials img {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.features h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    padding: 0 0 56px 0;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.features h2 span {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    font-size: 17px;
+    font-weight: 600;
+    color: #FB8F1D;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+
+.features .cards {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.features .cards .card {
+    position: relative;
+    width: 261px;
+    height: 337px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    border-radius: 8px;
+    cursor: pointer;
+    transition: linear 0.1s;
+}
+
+
+.features .cards .card:hover {
+    transform: scale(1.05);
+}
+
+
+.features .cards .card .content {
+    background: #fff;
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+
+    padding: 11px 22px 5px 5px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.features .cards .card .content h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #042521;
+}
+
+
+.features .cards .card .content h6 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #80918E;
+}
+
+
+@media (max-width: 500px) {
+    body section.features {
+        width: 100vw;
+    }
+
+
+    .features h2 {
+        font-size: 26px;
+        padding: 0 0 36px 0;
+
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+
+    .features h2 span {
+        display: none;
+    }
+
+
+    .features .cards {
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+
+
+    .features .cards .card {
+        position: relative;
+        width: 90vw;
+        height: 108.36vw;
+    
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+    
+        border-radius: 8px;
+        cursor: pointer;
+        transition: linear 0.1s;
+    }
+}

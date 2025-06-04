@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+header {
+    padding: 35px 0;
+}
+
+
+header .menu {
+    display: none;
+}
+
+
+header .flex {
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+
+}
+
+
+header .exit {
+    display: none;
+}
+
+
+header ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8BECD;
+    cursor: pointer;
+    z-index: 1500;
+}
+
+
+header ul li span {
+    color: #202336;
+    font-weight: 500;
+    z-index: 1500;
+}
+
+
+header .btn {
+    align-items: center;
+    gap: 18px;
+}
+
+
+header .btn .login {
+    padding: 15px 46px;
+    border: 1px solid #FB8F1D;
+    background: transparent;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #FB8F1D;
+}
+
+
+header .btn .register {
+    padding: 15px 36px;
+    background: #FB8F1D;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+    header {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+
+    header .menu {
+        display: block;
+        font-size: 25px;
+    }
+
+
+    header ul {
+        position: fixed;
+        right: -400px;
+        top: 0;
+
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 30px;
+
+        padding: 50px;
+        z-index: 1500;
+
+        background: #FFFFFF;
+
+        transition: right 0.5s ease;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* yumshoq soyali effekt */
+    }
+
+
+    html body .right {
+        position: fixed;
+        right: 0;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+
+    header .top {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    header .top span {
+        font-size: 25px;
+        color: #7D7987;
+    }
+
+
+    header .exit {
+        display: inline;
+    }
+
+
+    header .btn {
+        flex-direction: row-reverse;
+    }
+}

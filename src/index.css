@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* outline: 1px solid red !important; */
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;        
+    max-width: 100%;
+    overflow-x: clip;     
+    position: relative;
+    box-sizing: border-box;
+  }
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.flex {
+    display: flex;
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        width: 90%;
+    }
+}
+

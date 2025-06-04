@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Syne:wght@400..800&display=swap');
+
+
+footer {
+    background: #F9F9FB;
+    padding: 78px 0;
+}
+
+
+footer > .flex {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+
+footer .about {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+footer .about p {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    width: 391px;
+    color: #848484;
+    padding: 26px 0 55px;
+}
+
+
+footer .about h6 {
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: #848484;
+}
+
+
+footer ul {
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+footer ul h4 {
+    font-family: "Mulish", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #000000;
+}
+
+
+footer ul li {
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #848484;
+    cursor: pointer;
+}
+
+
+footer ul .flex {
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+footer ul .flex .icon {
+    font-size: 20px;
+    color: #000000;
+}
+
+
+footer .rights {
+    display: none;
+}
+
+
+@media (max-width: 500px) {
+    footer {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+
+    footer > .flex {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    footer .about h6 {
+        display: none;
+    }
+
+
+    footer .about p {
+        padding: 20px 0;
+    }
+
+
+    footer .rights {
+        font-family: "Mulish", sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        color: #848484;
+        display: block;
+    }
+}

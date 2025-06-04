@@ -1,0 +1,114 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    max-width: 100%;
+  }
+  
+  
+  /* Modal CSS */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 9999;
+  }
+  
+  
+  .modal-content {
+    background: #fff;
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    color: #000;
+    outline: none;
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+    background-color: #E5F4F2;
+    color: #007a33;
+    border: none;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: #ccf1ee;
+  }
+  
+  .follow-text {
+    margin: 25px 0 10px;
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons a {
+    color: #009688;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #00796b;
+  }
+  
+  .contact-info {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  
+  @media (max-width: 500px) {
+    .modal-overlay {
+      width: 100vw;
+      overflow-x: hidden;
+    }
+  }
