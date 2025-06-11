@@ -31,5 +31,12 @@
         "title": "Thousand Sunny gidlari",
         "paragraph": "Maydonimizdagi mutaxassislarimizning maslahatlari va tavsiyalariga to'la bo'lgan shahar qo'llanmalari ilovasi (iOS va Android) sayohatdan oldin va sayohat vaqtida eng zo'r manbadir.",
         "button": "Ko'proq ma'lumot"
+    },
+    "modal": {
+        "title": "Boshladik!",
+        "nameplaceholder": "Ismingiz...",
+        "send": "Yuborish",
+        "followus": "Bizni kuzatib boring",
+        "phone": "Telefon"
     }
 }

@@ -35,6 +35,12 @@
     },
     "testimonials": {
         "title": "Testimonials"
-        
+    },
+    "modal": {
+        "title": "Get Started!",
+        "nameplaceholder": "Your name...",
+        "send": "Send",
+        "followus": "Follow us",
+        "phone": "Phone"
     }
 }

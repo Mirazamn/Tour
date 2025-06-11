@@ -72,6 +72,19 @@ header .btn .register {
 }
 
 
+.lang {
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #B8BECD;
+    cursor: pointer;
+    z-index: 1500;
+}
+
+
 @media (max-width: 500px) {
     header {
         width: 100vw;

@@ -62,8 +62,8 @@
   
   .subscribe-btn {
     width: 100%;
-    background-color: #E5F4F2;
-    color: #007a33;
+    background-color: #fb901d30;
+    color: #FB8F1D;
     border: none;
     padding: 10px;
     font-weight: 600;
@@ -73,7 +73,7 @@
   }
   
   .subscribe-btn:hover {
-    background-color: #ccf1ee;
+    background-color: #fb901d7a;
   }
   
   .follow-text {
@@ -91,12 +91,12 @@
   }
   
   .social-icons a {
-    color: #009688;
+    color: #FB8F1D;
     transition: 0.3s;
   }
   
   .social-icons a:hover {
-    color: #00796b;
+    color: rgba(251, 144, 29, 0.687)
   }
   
   .contact-info {

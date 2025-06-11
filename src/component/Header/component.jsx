@@ -42,7 +42,10 @@ function Header() {
                 <li>{t('header.partner')}</li>
                 
                 <div className="btn flex">
-                  <select onChange={(e) => changeLang(e.target.value)}>
+                  <select
+                  className='lang'
+                  value={i18n.language}
+                  onChange={(e) => changeLang(e.target.value)}>
                     <option value="uz">O'zbek</option>
                     <option value="ru">Russian</option>
                     <option value="en">English</option>
