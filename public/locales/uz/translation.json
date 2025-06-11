@@ -38,5 +38,11 @@
         "send": "Yuborish",
         "followus": "Bizni kuzatib boring",
         "phone": "Telefon"
+    },
+    "testimonials": {
+        "title": "Mijozlar fikrlari",
+        "quote": "Sizning xizmatlaringizdan juda mamnunman. Jamoa juda professional va doim yordamga tayyor edi.",
+        "name": "Aleksey Smirnov",
+        "position": "Circle asoschisi"
     }
 }

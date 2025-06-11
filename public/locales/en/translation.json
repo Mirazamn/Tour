@@ -33,14 +33,17 @@
         "paragraph": "Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.",
         "button": "Learn more"
     },
-    "testimonials": {
-        "title": "Testimonials"
-    },
     "modal": {
         "title": "Get Started!",
         "nameplaceholder": "Your name...",
         "send": "Send",
         "followus": "Follow us",
         "phone": "Phone"
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "quote": "Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec",
+        "name": "Aleksey Smirnov",
+        "position": "Founder Circle"
     }
 }
