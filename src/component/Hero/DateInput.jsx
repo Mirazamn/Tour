@@ -1,27 +1,21 @@
 import { useState } from "react";
+import "./dateInput.css"; // стили отдельно
 
-function DateInput({ placeholder }) {
-  const [type, setType] = useState("text");
+function DateInput({ label }) {
+  const [value, setValue] = useState("");
 
   return (
-    <input
-      type={type}
-      placeholder={placeholder}
-      onFocus={() => setType("date")}
-      onBlur={(e) => {
-        if (!e.target.value) setType("text");
-      }}
-      style={{
-        padding: "20px 30px",
-        border: "0.8px solid #AFB0B9",
-        borderRadius: "6px",
-        width: "220px",
-        fontSize: "15px",
-        fontWeight: 400,
-        color: "#4A4C53",
-        outline: "none",
-      }}
-    />
+    <div className="date-input-wrapper">
+      <label className={`floating-placeholder ${value ? "filled" : ""}`}>
+        {label}
+      </label>
+      <input
+        type="date"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+        className="styled-date-input"
+      />
+    </div>
   );
 }
 
