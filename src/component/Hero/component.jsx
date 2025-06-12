@@ -5,7 +5,6 @@ import HeroImg from '../../assets/hero-img.svg'
 import Modal from '../Modal/component';
 
 import { useTranslation } from 'react-i18next';
-import DateInput from './DateInput';
 
 function Hero() {
     const [OpenModal, SetOpenModal] = useState(false)
@@ -26,12 +25,12 @@ function Hero() {
 
                     <div className="date flex">
                         <label htmlFor="ReachDate">{t('hero.reach')}</label>
-                        <DateInput placeholder="01 / 09 / 2025"/>
+                        <input id='ReachDate' type="date" placeholder={t('hero.grade')}/>
                     </div>
 
                     <div className="date flex">
                         <label htmlFor="endDate">{t('hero.arrive')}</label>
-                        <DateInput placeholder="12 / 09 / 2025"/>
+                        <input id='endDate' type="date" placeholder={t('hero.date')}/>
                     </div>
                 </div>
                 <button onClick={()=> SetOpenModal(true)}>{t('hero.explore')}</button>
