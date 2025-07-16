@@ -13,7 +13,7 @@ function Features() {
     const [OpenModal, SetOpenModal] = useState(false)
 
     useEffect(() => {
-        fetch('https://67ceb4c2125cd5af757ba4e6.mockapi.io/api/v1/tasks')
+        fetch('https://6864005688359a373e972948.mockapi.io/Posts')
             .then((res) => res.json())
             .then((data) => {
                 setPlace(data);
